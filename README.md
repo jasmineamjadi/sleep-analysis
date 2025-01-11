@@ -19,8 +19,8 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346
 - Average Daily Steps
 - Sleep Disorder
 
-## **Analysis**
+## **Analysis and Visualizations**
 
-## **Results**
+## **Results Summary**
 
 ## **Conclusion**
