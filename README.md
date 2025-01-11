@@ -25,4 +25,4 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346
 
 ## **Conclusion**
 
-Understanding the various aspects that affect our sleep quality can help in identifying areas for improvement. Ultimately, sleep quality plays a crucial role in our ability to function in our cognitive functioning and physical health. This analysis shines a light on the importance of 
+Understanding the factors that affect our sleep quality allows us pinpoint ways that we can improve it. Ultimately, sleep plays a crucial role in our cognitive performance and physical health. Although some factors, such as gender and age, are unchangeable, recognizing their influence fosters greater awareness. This analysis shines a light on the importance of effectively managing stress and sleep disorders. 
