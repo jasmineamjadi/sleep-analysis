@@ -1,8 +1,8 @@
 # **Demographic and Health Factors on Sleep Quality**
 
-## **Overview**
+## **Introduction**
 
-This project examines the influence of demographic and health factors on sleep quality through analysis and visualization. The analysis touches on various aspects such as gender, age, occupation, sleep duration, stress levels, and sleep disorders.
+Sleep plays a crucial role in our cognitive, physical, and emotional well-being, yet poor sleep health remains a growing global concern. Insufficient sleep is linked to impaired decision-making, mental health challenges, and chronic conditions such as hypertension and type 2 diabetes. This project analyzes the influence of demographic and health factors on sleep quality in an effort to gain insights that could inform effective improvement strategies.
 
 ## **Dataset**
 
@@ -11,17 +11,31 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346
 - Gender
 - Age
 - Occupation
-- Average Sleep Duration (hours)
-- Average Sleep Quality Rating (1-10)
-- Average Physical Activity (minutes)
-- Average Stress Level Rating (1-10)
+- Sleep Duration (hours)
+- Sleep Quality Rating (1-10)
+- Physical Activity (minutes)
+- Daily Steps
+- Stress Level Rating (1-10)
 - BMI Category
-- Average Daily Steps
+- Heart Rate
+- Blood Pressure
 - Sleep Disorder
 
-## **Analysis and Visualizations**
+## **Key Insights**
 
-## **Results Summary**
+### **Gender**
+
+### **Age**
+
+### **Occupation**
+
+### **Stress Levels**
+
+### **Sleep Duration**
+
+### **BMI and Sleep Disorders**
+
+
 
 ## **Conclusion**
 
