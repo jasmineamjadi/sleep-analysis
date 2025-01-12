@@ -7,9 +7,8 @@ Sleep plays a crucial role in our cognitive, physical, and emotional well-being,
 ## **Dataset**
 
 The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset). It consists of 374 observations with a wide range of variables including:
-
-  - Gender 
-  - Age
+- Gender 
+- Age
 - Occupation
 - Sleep Duration (hours)
 - Sleep Quality Rating (1-10)
@@ -21,22 +20,6 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346
 - Blood Pressure
 - Sleep Disorder
 
-## **Key Insights**
-
-### **Gender**
-
-### **Age**
-
-### **Occupation**
-
-### **Stress Levels**
-
-### **Sleep Duration**
-
-### **BMI and Sleep Disorders**
 
 
-
-## **Conclusion**
-
-Understanding the factors that affect our sleep quality allows us to pinpoint ways to improve it. Ultimately, sleep plays a crucial role in our cognitive performance and physical health. Although some factors, such as gender and age, cannot be controlled, recognizing their influence fosters greater awareness. Insights from this analysis shine a light on the importance of effectively managing stress and sleep disorders. 
+## **Analysis and Visualisualizations**
