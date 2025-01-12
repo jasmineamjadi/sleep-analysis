@@ -22,4 +22,4 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346
 
 
 
-## **Analysis and Visualisualizations**
+## **Analysis and Visualizations**
