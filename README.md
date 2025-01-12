@@ -8,7 +8,7 @@ Sleep plays a crucial role in our cognitive, physical, and emotional well-being,
 
 The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset). It consists of 374 observations with a wide range of variables including:
 
-- Gender                                  - Daily Steps
+- Gender  |                                - Daily Steps
 - Age
 - Occupation
 - Sleep Duration (hours)
