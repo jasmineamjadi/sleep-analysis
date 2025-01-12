@@ -6,20 +6,7 @@ Sleep plays a crucial role in our cognitive, physical, and emotional well-being,
 
 ## **Dataset**
 
-The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset). It consists of 374 observations with a wide range of variables including:
-- Gender 
-- Age
-- Occupation
-- Sleep Duration (hours)
-- Sleep Quality Rating (1-10)
-- Physical Activity (minutes)
-- Daily Steps
-- Stress Level Rating (1-10)
-- BMI Category
-- Heart Rate
-- Blood Pressure
-- Sleep Disorder
-
+The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset). It consists of 374 observations and includes demographic, health, and lifestyle variables such as gender, age, occupation, sleep duration, stress levels, BMI, and the presence of sleep disorders. 
 
 
 ## **Analysis and Visualizations**
