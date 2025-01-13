@@ -30,9 +30,9 @@ To run the analysis, you need to have the following Python libraries installed:
 - scipy
 
 You can install these libraries using pip:
-```bash
-pip install pandas numpy seaborn matplotlib scipy
-```
+   ```bash
+   pip install pandas numpy seaborn matplotlib scipy
+   ```
 ## **Usage**
 1. Clone the repository:
    ```bash
@@ -56,17 +56,35 @@ While males and females were almost equally represented overall, the age group d
 ### **Gender and Sleep Quality**
 <img src="https://github.com/jasmineamjadi/sleep-analysis/blob/main/visualizations/gender-sleep.png" alt="isolated" width="80%"/>
 
-On average, females rated their sleep quality slightly higher than males. Women consistently scored one point higher at the 25th, 50th,and 75th percentiles. A Welch's t-test confirmed this difference, meaning it's unlikely due to chance. This suggests better sleep quality among females, aligning with trends from earlier research that found women tend to sleep slightly longer and have higher sleep efficiency than men.
+**T-stat** = -5.86
+
+**p-value** = 1.08 x 108
+
+On average, females rated their sleep quality slightly higher than males. Women consistently scored one point higher at the 25th, 50th,and 75th percentiles. A Welch's t-test confirmed this difference, meaning it's unlikely due to chance. This suggests better sleep quality among females, aligning with trends from earlier research that found women tend to sleep slightly longer and have higher sleep efficiency than men.<a href="#References"><sup>[5]</sup></a><a href="#References"><sup>[6]</sup></a>
 
 ### **Age and Sleep Quality**
 <img src="https://github.com/jasmineamjadi/sleep-analysis/blob/main/visualizations/age-sleep.png" alt="isolated" width="80%"/>
 
-There was quite a bit of variability in sleep quality among the age groups. The 20-30 group had the lowest average, mostly between 6 and 7, while the 51-60 group clustered tightly around 9, indicating the best sleep quality compared to the other groups.A Spearman's rank coefficient of 0.42 shows a moderate positive link between age and sleep quality, suggesting improvement with age. However, this trend contradicts much existing research that has found an increase of sleep disturbances and decreased time spent in deep sleep with age. This highlights the need to investigate potential confounding factors such as the distribution of BMI or sleep durations among these age groups. 
+**Spearman's rank coefficient** = 0.41
+
+**p-value** = 3.1 x 1017
+
+There was quite a bit of variability in sleep quality among the age groups. The 20-30 group had the lowest average, mostly between 6 and 7, while the 51-60 group clustered tightly around 9, indicating the best sleep quality compared to the other groups. A Spearman's rank coefficient of 0.42 shows a moderate positive link between age and sleep quality, suggesting improvement with age. However, this trend contradicts much existing research that has found an increase of sleep disturbances and decreased time spent in deep sleep with age.<a href="#References"><sup>[7]</sup></a> This highlights the need to investigate potential confounding factors such as the distribution of BMI or sleep durations among these age groups.
 
 ### **Occupation and Sleep Quality**
 <img src="https://github.com/jasmineamjadi/sleep-analysis/blob/main/visualizations/occupation-sleep.png" alt="isolated" width="80%"/>
 
-Sleep quality ratings varied across occupations in this dataset with engineers reporting the highest average ratings. Salespeople had the lowest ratings, followed by doctors, and nurses showed the highest variability in ratings among the seven occupations. Higher sleep quality could be linked to a more consistent work schedule while irregular work hours may contribute to lower ratings. Variability among ratings within certain occupations could be indicative of the diverse nature of their fields. It would be interesting to perform a further analysis on stress levels and physical activity between these occupations and how they play into reported sleep quality.
+| Occupation  | Stdev |
+|-------------|-------|
+| Nurse       | 1.55  |
+| Doctor      | 0.76  |
+| Engineer    | 0.75  |
+| Teacher     | 0.66  |
+| Accountant  | 0.46  |
+| Lawyer      | 0.31  |
+| Salesperson | 0.00  |
+
+Sleep quality ratings varied across occupations in this dataset with engineers reporting the highest average ratings. Salespeople had the lowest ratings, followed by doctors, and nurses showed the highest variability in ratings among the seven occupations. Higher sleep quality could be linked to a more consistent work schedule while irregular work hours may contribute to lower ratings. Variability among ratings within certain occupations could be indicative of the diverse nature of their fields. Further analysis on stress levels and physical activity between these occupations would be interesting to see how they play into reported sleep quality.
 
 ### **Sleep Duration, Stress Level, and Sleep Quality**
 
@@ -88,7 +106,9 @@ Overweight and obese individuals make up a large percentage of those with sleep 
 ## References
 
 1. Salfi F, Lauriola M, Tempesta D, Calanna P, Socci V, De Gennaro L, Ferrara M. Effects of Total and Partial Sleep Deprivation on Reflection Impulsivity and Risk-Taking in Deliberative Decision-Making. Nat Sci Sleep. 2020    May 27;12:309-324. doi: 10.2147/NSS.S250586. PMID: 32547280; PMCID: PMC7261660.
+   
 2. Neckelmann D, Mykletun A, Dahl AA. Chronic insomnia as a risk factor for developing anxiety and depression. Sleep. 2007 Jul;30(7):873-80. doi: 10.1093/sleep/30.7.873. PMID: 17682658; PMCID: PMC1978360.
+   
 3. Mansukhani MP, Covassin N, Somers VK. Apneic Sleep, Insufficient Sleep, and Hypertension. Hypertension. 2019 Apr;73(4):744-756. doi: 10.1161/HYPERTENSIONAHA.118.11780. PMID: 30776972; PMCID: PMC6513351.
 4. Knutson KL. Impact of sleep and sleep loss on glucose homeostasis and appetite regulation. Sleep Med Clin. 2007 Jun;2(2):187-197. doi: 10.1016/j.jsmc.2007.03.004. PMID: 18516218; PMCID: PMC2084401.
 5. Krishnan V, Collop NA. Gender differences in sleep disorders. Curr Opin Pulm Med. 2006 Nov;12(6):383-9. doi: 10.1097/01.mcp.0000245705.69440.6a. PMID: 17053485.
