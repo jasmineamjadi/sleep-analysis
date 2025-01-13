@@ -12,7 +12,7 @@ This project investigates various factors that influence sleep quality through d
 
 Sleep plays a crucial role in our cognitive, physical, and emotional well-being, yet poor sleep health remains a growing global concern. Insufficient sleep is linked to impaired decision-making, mental health challenges, and chronic conditions such as hypertension and type 2 diabetes.<a href="#References"><sup>[1]</sup></a><a href="#References"><sup>[2]</sup></a><a href="#References"><sup>[3]</sup></a><a href="#References"><sup>[4]</sup></a>
 
-<sup>[1]</sup><sup>[2]</sup><sup>[3]</sup><sup>[4]</sup>  
+
 
 This project analyzes the influence of demographic and health factors on sleep quality in an effort to gain insights that could inform effective improvement strategies.
 
