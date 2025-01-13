@@ -7,6 +7,8 @@ This project investigates various factors that influence sleep quality through d
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Results](#Results)
+- [Conclusion](#Conclusion)
+- [References](#References)
 
 ## **Introduction**
 
@@ -101,7 +103,11 @@ Sleep quality increases with sleep duration. Conversely, increased stress level 
 
 <img src="https://github.com/jasmineamjadi/sleep-analysis/blob/main/visualizations/bmi-disorder-sleep.png" alt="isolated" width="80%"/>
 
-Overweight and obese individuals make up a large percentage of those with sleep apnea and insomnia. People without sleep disorders, particularly in the normal BMI range, report higher sleep quality. For sleep apnea, both healthy weight and obese individuals have a similar median sleep quality while overweight individuals report lower and more varied ratings. Insomnia shows lower sleep quality among overweight and obese individuals compared to those with a normal BMI, highlighting the link between BMI, sleep disorders, and reduced sleep quality. 
+Overweight and obese individuals make up a large percentage of those with sleep apnea and insomnia. People without sleep disorders, particularly in the normal BMI range, report higher sleep quality. For sleep apnea, both healthy weight and obese individuals have a similar median sleep quality while overweight individuals report lower and more varied ratings. Insomnia shows lower sleep quality among overweight and obese individuals compared to those with a normal BMI, highlighting the link between BMI, sleep disorders, and reduced sleep quality.
+
+## **Conclusion**
+
+This analysis provided valuable insights into how various demographic and health factors shape sleep quality. By identifying what influences our sleep, we are able to pinpoint ways to improve it. Some potential avenues for future analyses may include examining the interplay of stress, physical activity, and sleep duration on sleep quality among certain occupations or the impact of BMI and sleep disorders on age-related sleep quality trends. Ultimately, these findings can guide targeted interventions that support better sleep health for a wide range of individuals.
 
 ## References
 
